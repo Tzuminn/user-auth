@@ -37,15 +37,15 @@ npm run dev
 
 ### 首頁
 
-![首頁]()
+![首頁](https://github.com/Tzuminn/user-auth/blob/main/public/img/home.jpg)
 
 ### 歡迎畫面
 
-![歡迎畫面]()
+![歡迎畫面](https://github.com/Tzuminn/user-auth/blob/main/public/img/welcome.jpg)
 
 ### 登入失敗
 
-![登入失敗]()
+![登入失敗](https://github.com/Tzuminn/user-auth/blob/main/public/img/failed.jpg)
 
 
 ## 環境及安裝套件
