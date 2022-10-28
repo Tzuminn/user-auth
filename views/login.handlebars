@@ -1,0 +1,32 @@
+<div class="container py-5 d-flex justify-content-center">
+
+  <div class="row">
+    <div class="col-10 col-lg-10 col-xl-8 mx-auto mt-6" style="width: 450px">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title d-flex justify-content-center">Account Login<i class="fa-sharp fa-solid fa-house"></i>
+          </h4>
+          <hr>
+          <form action="/login" method="POST">
+            <div class="col-12">
+              <label for="email" class="form-label"></label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email"  value="{{email}}" required>
+            </div>
+            <div class="col-12">
+              <label for="password" class="form-label"></label>
+              <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="new-btn-location d-flex justify-content-center">
+              <button class="btn btn-outline-dark mt-3" type="submit" id="submit-button">Sign in</button>
+            </div>
+            {{#if fail }}
+            <div class="col-12 mx-auto mt-3 alert alert-danger" style="text-align:center" role="alert">
+                {{ fail }}
+              </div>
+              {{/if}}
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
